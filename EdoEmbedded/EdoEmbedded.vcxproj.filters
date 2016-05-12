@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\PolyHook">
+      <UniqueIdentifier>{ce69d5b5-99ce-4d95-a68f-efb3c63cf526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Capstone">
+      <UniqueIdentifier>{a4f3299c-3336-47fd-91b5-6d33511b93a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PolyHook">
+      <UniqueIdentifier>{e23bf2dc-31d5-454a-86ac-6b5f66edd8a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\PolyHook\PolyHook.h">
+      <Filter>Header Files\PolyHook</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Capstone\arm.h">
+      <Filter>Header Files\Capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Capstone\arm64.h">
+      <Filter>Header Files\Capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Capstone\capstone.h">
+      <Filter>Header Files\Capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Capstone\mips.h">
+      <Filter>Header Files\Capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Capstone\platform.h">
+      <Filter>Header Files\Capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Capstone\ppc.h">
+      <Filter>Header Files\Capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Capstone\sparc.h">
+      <Filter>Header Files\Capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Capstone\systemz.h">
+      <Filter>Header Files\Capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Capstone\x86.h">
+      <Filter>Header Files\Capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Capstone\xcore.h">
+      <Filter>Header Files\Capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="include\D3DHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\edo_embedded.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\PolyHook\PolyHook.cpp">
+      <Filter>Source Files\PolyHook</Filter>
+    </ClCompile>
+    <ClCompile Include="src\D3DHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\edo_embedded.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

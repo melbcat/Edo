@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Edo", "Edo\Edo.vcxproj", "{957BD91A-6EF6-4074-B5EE-EA19C086206C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EdoEmbedded", "EdoEmbedded\EdoEmbedded.vcxproj", "{B0FAB86A-464C-43EC-8639-8842B8989050}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EdoScanner", "EdoScanner\EdoScanner.vcxproj", "{E1B07E39-E7EA-4E48-AEC3-DE9AC7F2EA10}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B0FAB86A-464C-43EC-8639-8842B8989050} = {B0FAB86A-464C-43EC-8639-8842B8989050}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EdoInjector", "EdoInjector\EdoInjector.vcxproj", "{7053F62E-B3B5-4952-9636-D35386D9DBEE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{957BD91A-6EF6-4074-B5EE-EA19C086206C} = {957BD91A-6EF6-4074-B5EE-EA19C086206C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{957BD91A-6EF6-4074-B5EE-EA19C086206C}.Debug|x64.ActiveCfg = Debug|x64
+		{957BD91A-6EF6-4074-B5EE-EA19C086206C}.Debug|x64.Build.0 = Debug|x64
+		{957BD91A-6EF6-4074-B5EE-EA19C086206C}.Debug|x86.ActiveCfg = Debug|Win32
+		{957BD91A-6EF6-4074-B5EE-EA19C086206C}.Debug|x86.Build.0 = Debug|Win32
+		{957BD91A-6EF6-4074-B5EE-EA19C086206C}.Release|x64.ActiveCfg = Release|x64
+		{957BD91A-6EF6-4074-B5EE-EA19C086206C}.Release|x64.Build.0 = Release|x64
+		{957BD91A-6EF6-4074-B5EE-EA19C086206C}.Release|x86.ActiveCfg = Release|Win32
+		{957BD91A-6EF6-4074-B5EE-EA19C086206C}.Release|x86.Build.0 = Release|Win32
+		{B0FAB86A-464C-43EC-8639-8842B8989050}.Debug|x64.ActiveCfg = Debug|x64
+		{B0FAB86A-464C-43EC-8639-8842B8989050}.Debug|x64.Build.0 = Debug|x64
+		{B0FAB86A-464C-43EC-8639-8842B8989050}.Debug|x86.ActiveCfg = Debug|Win32
+		{B0FAB86A-464C-43EC-8639-8842B8989050}.Debug|x86.Build.0 = Debug|Win32
+		{B0FAB86A-464C-43EC-8639-8842B8989050}.Release|x64.ActiveCfg = Release|x64
+		{B0FAB86A-464C-43EC-8639-8842B8989050}.Release|x64.Build.0 = Release|x64
+		{B0FAB86A-464C-43EC-8639-8842B8989050}.Release|x86.ActiveCfg = Release|Win32
+		{B0FAB86A-464C-43EC-8639-8842B8989050}.Release|x86.Build.0 = Release|Win32
+		{E1B07E39-E7EA-4E48-AEC3-DE9AC7F2EA10}.Debug|x64.ActiveCfg = Debug|x64
+		{E1B07E39-E7EA-4E48-AEC3-DE9AC7F2EA10}.Debug|x64.Build.0 = Debug|x64
+		{E1B07E39-E7EA-4E48-AEC3-DE9AC7F2EA10}.Debug|x86.ActiveCfg = Debug|Win32
+		{E1B07E39-E7EA-4E48-AEC3-DE9AC7F2EA10}.Debug|x86.Build.0 = Debug|Win32
+		{E1B07E39-E7EA-4E48-AEC3-DE9AC7F2EA10}.Release|x64.ActiveCfg = Release|x64
+		{E1B07E39-E7EA-4E48-AEC3-DE9AC7F2EA10}.Release|x64.Build.0 = Release|x64
+		{E1B07E39-E7EA-4E48-AEC3-DE9AC7F2EA10}.Release|x86.ActiveCfg = Release|Win32
+		{E1B07E39-E7EA-4E48-AEC3-DE9AC7F2EA10}.Release|x86.Build.0 = Release|Win32
+		{7053F62E-B3B5-4952-9636-D35386D9DBEE}.Debug|x64.ActiveCfg = Debug|x64
+		{7053F62E-B3B5-4952-9636-D35386D9DBEE}.Debug|x64.Build.0 = Debug|x64
+		{7053F62E-B3B5-4952-9636-D35386D9DBEE}.Debug|x86.ActiveCfg = Debug|Win32
+		{7053F62E-B3B5-4952-9636-D35386D9DBEE}.Debug|x86.Build.0 = Debug|Win32
+		{7053F62E-B3B5-4952-9636-D35386D9DBEE}.Release|x64.ActiveCfg = Release|x64
+		{7053F62E-B3B5-4952-9636-D35386D9DBEE}.Release|x64.Build.0 = Release|x64
+		{7053F62E-B3B5-4952-9636-D35386D9DBEE}.Release|x86.ActiveCfg = Release|Win32
+		{7053F62E-B3B5-4952-9636-D35386D9DBEE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
